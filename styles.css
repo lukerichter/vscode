@@ -76,6 +76,7 @@ nav ul li:hover {
 }
 
 @media only screen and (max-device-width : 874px) {
+    
     nav i {
         display: block !important;
     }
@@ -89,18 +90,19 @@ nav ul li:hover {
         top: 80px;
         left: 0;
         width: 100%;
+        height: calc(100vh - 80px);
         background: #ffffffd3;
         flex-direction: column;
-        padding: 0;
         align-items: center;
-        padding: 20px 0 20px 0;
+        justify-content: center;
         margin: 0;
+        padding: 0;
         gap: 0;
         backdrop-filter: blur(8px);
     }
 
     nav.opened ul li {
-        display: block;
         padding: 20px;
+        font-size: 1.2em;
     }
 }
