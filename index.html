@@ -24,11 +24,11 @@
             <i class="fa-solid fa-bars fa-2x" onclick="toggleMenu()"></i>
 
             <ul>
-                <li onclick="goTo('')">Training</li>
-                <li onclick="goTo('')">Kalender</li>
-                <li onclick="goTo('')">Ergebnisse</li>
-                <li onclick="goTo('')">Berichte</li>
-                <li onclick="goTo('')">Info</li>
+                <li onclick="menuItemSelected('training')">Training</li>
+                <li onclick="menuItemSelected('calender')">Kalender</li>
+                <li onclick="menuItemSelected('results')">Ergebnisse</li>
+                <li onclick="menuItemSelected('articles')">Artikel</li>
+                <li onclick="menuItemSelected('info')">Info</li>
             </ul>
 
             
@@ -38,9 +38,11 @@
 
     </nav>
 
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
+    <div class="spacer" id="training"></div>
+    <div class="spacer" id="calender"></div>
+    <div class="spacer" id="results"></div>
+    <div class="spacer" id="articles"></div>
+    <div class="spacer" id="info"></div>
 
 
 </body>

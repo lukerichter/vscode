@@ -18,6 +18,11 @@ body {
 
 div.spacer {
     height: 100vh;
+    background: #ffffff;
+}
+
+div.spacer:nth-of-type(even) {
+    background: #eeeeee;
 }
 
 /* ==================================================================== */
@@ -43,6 +48,7 @@ nav div {
 
 nav img {
     height: 50px;
+    margin-left: -10px;
 }
 
 nav i {
@@ -82,7 +88,7 @@ nav ul li:hover {
         top: 80px;
         left: 0;
         width: 100%;
-        background: #cfcfcf99;
+        background: #f5f5f58c;
         flex-direction: column;
         padding: 0;
         align-items: center;

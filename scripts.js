@@ -18,8 +18,8 @@ function toggleMenu() {
     }
 }
 
-function menuitemSelected(id) {
-    navClassList.replace('opened', 'closed')
+function menuItemSelected(id) {
+    document.getElementById('navigation').classList.replace('opened', 'closed')
     goTo(id);
 } 
 
